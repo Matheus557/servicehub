@@ -18,8 +18,22 @@ Este projeto é um ambiente de desenvolvimento profissional, pronto para rodar l
 
 ## 🚀 Setup Inicial
 
-### 1️⃣ Clonar o projeto
+### 1️ - Clonar o projeto
 
 ```bash
 git clone https://github.com/Matheus557/servicehub.git
 cd servicehub
+```
+### 2 - Entrar no container do app
+```
+docker exec -it laravel_app bash
+```
+### 3 - Instalar dependências PHP
+```
+composer install
+```
+
+### 4 - Criar arquivo de ambiente
+```
+cp .env.example .env
+```
